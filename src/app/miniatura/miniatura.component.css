@@ -1,0 +1,25 @@
+.miniatura{
+  height: 300px;
+  background: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: auto;
+  box-shadow: 3px 2px 10px gray;
+}
+
+.miniatura h3{
+   font-size: 22px;
+   margin-top: 10px
+}
+
+.miniatura h4{
+  font-size: 18px;
+   margin: 20px
+}
+
+  .miniatura i{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
