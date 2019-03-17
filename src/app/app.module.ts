@@ -6,6 +6,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { MenuComponent } from './menu/menu.component';
 import { ServicosComponent } from './servicos/servicos.component';
 import { MiniaturaComponent } from './miniatura/miniatura.component';
+import { EmpresaComponent } from './empresa/empresa.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MiniaturaComponent } from './miniatura/miniatura.component';
     CarouselComponent,
     MenuComponent,
     ServicosComponent,
-    MiniaturaComponent
+    MiniaturaComponent,
+    EmpresaComponent
   ],
   imports: [
     BrowserModule,

@@ -22,4 +22,11 @@
     font-size: 40px;
     margin-top: 15px;
     margin-right: 10px;
+    color:rgb(2, 130, 177);
+    transition: 0.2s;
 }
+
+.miniatura i:hover{
+  color:rgb(90, 181, 214);
+}
+

@@ -12,23 +12,26 @@ export class ServicosComponent implements OnInit {
         id: 1,
         titulo: 'INFRAESTRUTURA',
         descricao: 'Instalação e Projetos de Cabeamento Estruturado Cat5e | Cat6 | Cat6a ',
-        icone: 'fas fa-ethernet'
+        icone: 'fas fa-plug'
 
       },
       {
         id: 2,
-        titulo: 'Assistência Técnica',
-        descricao: 'Instalação e Manutenção em Centrais telefônicas PABX'
+        titulo: 'ASSISTÊNCIA TÉCNICA',
+        descricao: 'Instalação e Manutenção em Centrais telefônicas PABX',
+        icone: 'fas fa-tools'
       },
       {
         id: 3,
         titulo: 'TELEFONIA IP',
-        descricao: 'Provemos soluções e projetos para implantação de Telefonia IP'
+        descricao: 'Provemos soluções e projetos para implantação de Telefonia IP',
+        icone: 'fas fa-phone'
       },
       {
         id: 4,
         titulo: 'CONSULTORIA',
-        descricao: 'Soluções em sistemas de Telefonia Empresarial'
+        descricao: 'Soluções em sistemas de Telefonia Empresarial',
+        icone: 'fas fa-info-circle'
       },
     ]
 

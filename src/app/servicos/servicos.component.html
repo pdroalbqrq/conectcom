@@ -1,8 +1,12 @@
 <div class="container">
-  <div class="row">
-
-        <div class="col-sm-12 col-12 col-md-6 col-lg-3" *ngFor="let s of jsonServicos"  > <app-miniatura [titulo]="s.titulo" [descricao]="s.descricao" [icone]="s.icone"  ></app-miniatura></div>
-
-
+  <div class="nossosServicos">
+      <h1>NOSSOS SERVIÇOS</h1>
+      <h3>Soluções inovadores para diversos segmentos</h3>
+      <hr>
   </div>
+
+  <div class="row">
+        <div class="col-sm-12 col-12 col-md-6 col-lg-3" *ngFor="let s of jsonServicos"  > <app-miniatura [titulo]="s.titulo" [descricao]="s.descricao" [icone]="s.icone"  ></app-miniatura></div>
+  </div>
+  <app-empresa></app-empresa>
 </div>
