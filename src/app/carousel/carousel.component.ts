@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  interval = 1500;
+  interval = 3000;
 
   constructor() { }
 

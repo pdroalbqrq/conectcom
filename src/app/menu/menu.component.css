@@ -40,14 +40,24 @@
   font-weight: bold;
   float: right;
   transition: 0.2s;
+  display: inline-block;
   text-decoration: none;
   margin-right: 2%;
 
 }
 
-.menu a:hover{
+.menu a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin: 0 auto;
+  transition: width .5s;
   background: rgb(2, 130, 177);
   color: white;
+}
+.menu a:hover::after {
+  width: 100%;
 }
 
 
